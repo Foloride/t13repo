@@ -25,7 +25,7 @@ function lnko(a, b) {
     }
 }
 
-let num1 = 15648951261569;
-let num2 = 45649189652516;
+let num1 = 15648951261560;
+let num2 = 45649189652515;
 
 console.log(`lnko(${num1},${num2}): ${lnko(num1, num2)}\nciklus futások száma: ${counter}`);
