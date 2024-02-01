@@ -1,3 +1,4 @@
+// Input data
 let Dolgozok = [{
         nev: "Koaxk Ábel",
         kor: 23,
@@ -42,7 +43,7 @@ let Dolgozok = [{
     }
 ]
 
-
+// Print all solutions
 PrintMonthlyExpenses();
 PrintMostEarner();
 PrintYoungest();
@@ -56,7 +57,7 @@ PrintAveragePay();
 PrintOldest();
 PrintYearsUntilRetirementForOldest();
 
-
+// Implementations
 function GetMonthlyExpenses() {
     let expenses = 0;
     for (const dolgozo of Dolgozok) {
