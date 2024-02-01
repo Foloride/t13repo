@@ -49,10 +49,10 @@ PrintMostEarner();
 PrintYoungest();
 PrintAveragePay();
 IncreaseBerForYoungest();
-console.log(`Legfiatalabb dolgozó bére ${GetLocaleNumber(30000)} Forinttal növelve. Új átlag:`);
+console.log(`Legfiatalabb dolgozó bére ${GetLocaleNumber(30000)} Forinttal növelve.`);
 PrintAveragePay();
 IncreasePayForBelowAverage();
-console.log(`Átlag alatti fizetések növelve 10%-kal. Új átlag: `);
+console.log(`Átlag alatti fizetések növelve 10%-kal.`);
 PrintAveragePay();
 PrintOldest();
 PrintYearsUntilRetirementForOldest();
@@ -86,7 +86,7 @@ function PrintMostEarner() {
 }
 
 function PrintDolgozo(dolgozo) {
-    console.log(`Dolgozó adatai: \nnév: ${dolgozo.nev}\nkor: ${dolgozo.kor}\nfizetés: ${GetLocaleNumber(dolgozo.fizetes)}\nbeosztás: ${dolgozo.beosztas}`)
+    console.log(`Dolgozó adatai: \nnév: ${dolgozo.nev}\nkor: ${dolgozo.kor}\nfizetés: ${GetLocaleNumber(dolgozo.fizetes)}\nbeosztás: ${dolgozo.beosztas}\n`)
 }
 
 function GetYoungest() {
