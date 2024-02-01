@@ -121,7 +121,7 @@ function PrintAveragePay() {
 }
 
 function IncreasePayForBelowAverage() {
-    let average = GetAverageBer();
+    let average = GetAveragePay();
     for (const element of Dolgozok) {
         let dolgozo = element;
         if (dolgozo.fizetes < average){
