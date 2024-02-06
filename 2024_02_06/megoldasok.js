@@ -195,7 +195,7 @@ function IsCountryMember(countryName){
 function AreJoinsInMonth(month){
     let monthNumber = isNaN(month) ? monthNamesAndNumbers[month.toLowerCase()] : month;
     for (const joinInfo of EuropaiUnio) {
-        if (Number(joinInfo.csatlakozas.split(1)) == monthNumber){
+        if (Number(joinInfo.csatlakozas.split(".")[1]) === monthNumber){
             return true;
         }
     }
